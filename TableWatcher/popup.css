@@ -1,0 +1,26 @@
+body {
+  background: #1e1e1e;
+  color: white;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+#name-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.name-pill {
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: #aaa;
+  color: black;
+  cursor: pointer;
+}
+
+.name-pill.excluded {
+  background-color: #333;
+  color: #888;
+  text-decoration: line-through;
+}
